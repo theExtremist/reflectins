@@ -1,0 +1,76 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Well by looking at it you see the difference
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Spotting and clearing bugs will definitely be easier
+    We can quickly tried different solutions to a problem, test the results and implement the better one
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros
+    Saving space
+    As the programmer i will know the important milestones that i want to save
+
+    Cons
+    I could forget to create commits
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git probably treats the commit as a project while google is only interested in the file
+    Git appears to be built for sharing and it is probably easier to share a hole project with all the corresponding files
+
+How can you use the commands git log and git diff to view the history of files?
+
+    
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    i always know that i have a backup
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    version control
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term? 
+    
+    It is easy to retrieve old versions if i make errors
+    it is easy to create multiple soltutions of the same problem and see which one is more efficient without worrying about losing teh base
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+    PROS
+        - You keep the number of commits reasonable
+        - The commits are more likely to represent logical chunks as opposed to
+          an auto-save which will just save at any random point in the process
+    CONS
+        - You could forget to commit all together thus making it hard to 
+          compare commits
+        - If you forget to commit you may not eba ble to retrieve older 
+          vesions if your program start to eveolve in the wrong direction is you want to back track.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    It is probably common for programs to have multiple linked files. GIT appears to be designed to facilitate version control for programming and therefore supports multiple files.
+    Google docs and the others are most likely designed for normal personal or business type documents which are often self-suffient.
+
+
+How can you use the commands git log and git diff to view the history of files
+    
+    This is getting a bit boring now.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+    - It is easy to restore a previous bug-less version
+    - It is easy to compare files and therefore easier to identify potential bugs
