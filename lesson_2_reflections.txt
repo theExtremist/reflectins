@@ -10,13 +10,25 @@ How is the staging area different from the working directory and the repository?
 
 What value do you think it offers?
 
+    It allows you to review things before committing them
+
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+    Running git diff to find the changes between the staging area and the lastest commit on the repository will show the changes between the 2 versions
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    When experimenting with new features
+    When making changes to the main functionality but we are not sure that these will be retained
+    Context switching
+    Separating production and development branches
+
 How do the diagrams help you visualize the branch structure?
+
+    Easy to visualise or read
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
